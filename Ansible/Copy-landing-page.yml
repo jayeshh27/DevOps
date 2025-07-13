@@ -1,0 +1,10 @@
+---
+- name: Copy index file
+  hosts: all
+  become: true
+  tasks:
+    - name: Copy index html file
+      ansible.builtin.copy:
+        src: index.html
+        dest: /var/www/html
+        mode: '0644'
