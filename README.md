@@ -1,2 +1,2 @@
 # DevOps
-DevOps learning and practice files
+DevOps learning and practice files. Sample code files.
