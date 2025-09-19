@@ -13,4 +13,5 @@ systemctl enable nginx
 systemctl start nginx
 
 # Create a custom index.html file
-echo "<h1>Welcome to my Development server! Created by using Terraform </h1>" > /var/www/html/index.html
+echo "<h1>Welcome to my Production  server! Created by using Terraform </h1>" > /var/www/html/index.html
+
