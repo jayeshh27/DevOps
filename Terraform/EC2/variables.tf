@@ -48,6 +48,6 @@ variable "ec2_name" {
 variable "public_key_path" {
   description = "Path to the public key file for the key pair"
   type        = string
-  default     = "jayesh.pub"
+  default     = "/mnt/workspace/jayesh.pub"
 
 }
